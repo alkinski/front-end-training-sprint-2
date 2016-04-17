@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+.menu {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: #02918c;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.logo p::first-letter {
+    color: #ffffff;
+}
+
+.logo {
+    float: left;
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left: 65px;
+    transform: translate(0, -50%);
+}
+
+.logo a {
+    text-decoration: none;
+    color: #cfc91d;
+}
+
+.navigation {
+    float: right;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translate(0, -50%);
+}
+
+.navigation li {
+    display: inline;
+    padding-left: 50px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #ffffff;
+}
